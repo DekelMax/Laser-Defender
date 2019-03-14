@@ -96,10 +96,13 @@ MonoBehaviour:
   moveSpeed: 10
   padding: 0.05
   health: 200
+  death: {fileID: 8300000, guid: 8a62e7ea0307c8149ba6c06dcc78e57d, type: 3}
+  volume: 0.2
   laserPrefab: {fileID: 6453280381271445790, guid: 7a120d5e4de95f847a860d802f6852df,
     type: 3}
   projectileSpeed: 20
   projectileFiringPeriod: 0.05
+  playerLaser: {fileID: 8300000, guid: 31274d03da6e8ed4c885db9a3f68eedd, type: 3}
 --- !u!60 &4274959546412131096
 PolygonCollider2D:
   m_ObjectHideFlags: 0
